@@ -11,7 +11,7 @@ class A01{
 
 	   void start(){
 	          Scanner s = new Scanner(System.in);
-	          System.out.print("나이를 입력:");
+	          System.out.print("년도를 입력하세요.:");
 
 		  int year = s.nextInt();
 
