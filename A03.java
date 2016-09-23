@@ -1,21 +1,21 @@
 import java.util.*;
-class A01{
+class A03{
 
-		int age = 0;
+		int seconds = 0;
 
 
            public static void main(String[] args)
 	   {
-	          new A01().start(); 
+	          new A03().start(); 
 	   }
 
 	   void start(){
 	          Scanner s = new Scanner(System.in);
-	          System.out.print("나이를 입력:");
+	          System.out.print("날수를  입력하세요:");
 
-		  int year = s.nextInt();
+		  int days = s.nextInt();
 
-	   	this.age = 2016 - year +1;
+	   	this.seconds = days *24 *60 *60;
 	   	print();
 	   }
 
@@ -23,10 +23,10 @@ class A01{
 	   void print(){
 	   
 	
-	        if(age < 20)
-			System.out.println("미성년자입니다.");
-		else
-			System.out.println("미성년자가 아닙니다.");
+	        
+			System.out.println("날수에 해당되는 기간은 모두" +seconds+ "초 입니다");
+		
+			
 	   
 	   }
 
