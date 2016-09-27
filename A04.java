@@ -3,7 +3,9 @@ class A04{
 
 		int avg = 0;
 		int sum = 0;
-
+		int korea = 0;
+		int Eng = 0;
+		int math = 0;
 
            public static void main(String[] args)
 	   {
@@ -13,11 +15,13 @@ class A04{
 	   void start(){
 	          Scanner s = new Scanner(System.in);
 	          System.out.print("국어점수를  입력하세요:");
-		  int korea = s.nextInt();
+		  this.korea = s.nextInt();
 	          System.out.print("영어점수를  입력하세요:");
-		  int Eng = s.nextInt();
+		  this.Eng = s.nextInt();
 	          System.out.print("수학점수를  입력하세요:");
-	          int math = s.nextInt();
+	          this.math = s.nextInt();
+
+		  
 
 		  
 
@@ -31,10 +35,23 @@ class A04{
 	   
 	
 	        
-			System.out.println("입력하신 점수의 총점은 " +sum+ " 입니다");
+  	System.out.println("입력하신 점수의 총점은 " +sum+ " 입니다");
 		
-			System.out.println("입력하신 점수의 평균은 " +avg+ "입니다");
-			
+	System.out.println("입력하신 점수의 평균은 " +avg+ "입니다");
+	
+	if(korea>90)
+	{
+	System.out.println("국어점수가 우수합니다");
+	}
+	else if(Eng>90)
+	{
+	System.out.println("영어점수가 우수합니다.");
+	}
+	else if(math>90)
+	{
+	System.out.println("수학점수가 우수합니다.");
+	}
+	
 	   
 	   }
 
