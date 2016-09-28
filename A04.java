@@ -6,7 +6,7 @@ class A04{
 		int korea = 0;
 		int Eng = 0;
 		int math = 0;
-
+		String grade ="";
            public static void main(String[] args)
 	   {
 	          new A04().start(); 
@@ -39,19 +39,7 @@ class A04{
 		
 	System.out.println("입력하신 점수의 평균은 " +avg+ "입니다");
 	
-	if(korea>90)
-	{
-	System.out.println("국어점수가 우수합니다");
-	}
-	else if(Eng>90)
-	{
-	System.out.println("영어점수가 우수합니다.");
-	}
-	else if(math>90)
-	{
-	System.out.println("수학점수가 우수합니다.");
-	}
-	
+
 	   
 	   }
 
