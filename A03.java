@@ -26,17 +26,11 @@ class A03{
 	
 	        
 			System.out.println("날수에 해당되는 기간은 모두" +seconds+ "초 입니다");
-<<<<<<< HEAD
-			if(1000000<seconds)
-=======
-	System.out.println("100만초가 모두"+m_count+"번  포합됩니다.");	
-		
-		
-		
 
->>>>>>> job-A
-			
-			{int m_count = 1;
+			if(1000000<seconds)
+{
+	System.out.println("100만초가 모두"+m_count+"번  포합됩니다.");	
+		int m_count = 1;
 	System.out.println("100만초가 모두"+m_count+"입니다");}
 		else if(2000000<seconds)
 		{
