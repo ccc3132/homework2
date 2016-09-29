@@ -1,20 +1,14 @@
 import java.util.*;
 class A04{
 
-<<<<<<< HEAD
-		int avg = 0;
-		int sum = 0;
-		int korea = 0;
-		int Eng = 0;
-		int math = 0;
+
 		String grade ="";
-=======
 		int avg,sum,korea,Eng,math = 0;
 		 
 		
 		
 
->>>>>>> job-A
+
            public static void main(String[] args)
 	   {
 	          new A04().start(); 
@@ -28,11 +22,11 @@ class A04{
 		  this.Eng = s.nextInt();
 	          System.out.print("수학점수를  입력하세요:");
 	          this.math = s.nextInt();
-<<<<<<< HEAD
+
 
 		  
-=======
->>>>>>> job-A
+
+
 
 		  
 
