@@ -1,8 +1,10 @@
 import java.util.*;
 class A02{
 
-		double hwa= 0;
-		double sub=0;
+		double hwa,sub,input_degree= 0.0;
+		double kind = 0;
+		
+		
 		
 
            public static void main(String[] args)
@@ -14,12 +16,10 @@ class A02{
 	          Scanner s = new Scanner(System.in);
 	          System.out.print("온도를 입력하세요");
 
-		  double input_degree = s.nextInt();
-
-	   	this.hwa = sub * 1.8 + 32;
-		this.sub = (hwa -32)/1.8;
-                 System.out.print("입력하신 온도가 섭씨온도이면 C를 화씨온도이면 F를 입력하세요.");
-		 String kind = s.next();
+		  this.input_degree = s.nextInt();
+		
+                 System.out.print("입력하신 온도가 섭씨온도이면 1를 화씨온도이면 2를 입력하세요.");
+		 this.kind = s.nextInt();
 		print();
 	   }
 
@@ -27,13 +27,18 @@ class A02{
 	   void print(){
 	   
 	
-	        if(kind =='C')
-			sub = input_degree;
-		else if(kind =='F')
-		        hwa = input_degree;
+	        if(kind == 1){
+		hwa = input_degree *1.8+32;
+	System.out.println("변환된 온도는"+hwa+"입니다.");
+			}
+
+		else if(kind == 2){
+		        sub = (input_degree-32)/1.8;
+	System.out.println("변환된 온도는"+sub+"입니다."); 					}
 		else
-		print("이건 온도가 아닙니다.");
-	
+		{
+	System.out.print("이건 온도가 아닙니다.");
+		}
 			
 	   
 	   }

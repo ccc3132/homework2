@@ -15,7 +15,7 @@ class A01{
 
 		  int year = s.nextInt();
 
-	   	this.age = 2016 - year +1;
+	   	this.age = 2014 - year +1;
 	   	print();
 	   }
 

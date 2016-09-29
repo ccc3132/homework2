@@ -1,9 +1,10 @@
 import java.util.*;
 class A04{
 
-		int avg = 0;
-		int sum = 0;
-
+		int avg,sum,korea,Eng,math = 0;
+		 
+		
+		
 
            public static void main(String[] args)
 	   {
@@ -13,11 +14,11 @@ class A04{
 	   void start(){
 	          Scanner s = new Scanner(System.in);
 	          System.out.print("국어점수를  입력하세요:");
-		  int korea = s.nextInt();
+		  this.korea = s.nextInt();
 	          System.out.print("영어점수를  입력하세요:");
-		  int Eng = s.nextInt();
+		  this.Eng = s.nextInt();
 	          System.out.print("수학점수를  입력하세요:");
-	          int math = s.nextInt();
+	          this.math = s.nextInt();
 
 		  
 
@@ -35,6 +36,17 @@ class A04{
 		
 			System.out.println("입력하신 점수의 평균은 " +avg+ "입니다");
 			
+	   
+	   if(korea>=90)
+	   System.out.println("국어성적은 우수합니다");
+	   if(math>=90)
+	   System.out.println("수학성적은  우수합니다.");
+	   if(Eng>=90)
+	   System.out.println("영어성적은  우수합니다.");
+	   
+	   
+
+	   
 	   
 	   }
 

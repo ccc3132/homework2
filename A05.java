@@ -15,14 +15,14 @@ class A05{
 
 		  int birth_year = s.nextInt();
 
-	   	this.age = 2016 - birth_year +1;
+	   	this.age = 2012 - birth_year +1;
 	   	print();
 	   }
 
 
 	   void print(){
 	   
-		if(age<0)
+		if(age<=0)
 			System.out.println("태어나지 않았습니다.");
 	        else if(age < 7)
 			System.out.println("유아입니다.");
