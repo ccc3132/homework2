@@ -40,7 +40,8 @@ class A06{
 	System.out.println("학점은 B+ 입니다. ");
 	else if(avg >=80)
 	System.out.println("학점은 B 입니다. ");
-
+	else
+	System.out.println("F입니다.");
 	}
 }
 	
